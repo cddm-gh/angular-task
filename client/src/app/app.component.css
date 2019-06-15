@@ -1,0 +1,10 @@
+div.header {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 30px;
+}
+
+div.header h1 {
+    font-weight: bold;
+    font-size: 60px;
+}

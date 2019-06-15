@@ -1,0 +1,16 @@
+.undecorateda {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

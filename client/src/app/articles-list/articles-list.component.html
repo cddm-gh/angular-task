@@ -1,0 +1,16 @@
+<div *ngIf="data_array.length < 0">
+    <h1>No data to display</h1>
+</div>
+<!-- <ul>
+    <li *ngFor="let article of data_array">
+        <app-article [data]='article'></app-article>
+    </li>
+</ul> -->
+
+<mat-list role="list">
+    <mat-list-item *ngFor="let article of data_array" role="listitem">
+        <!-- <a [href]="test"> -->
+        <app-article [data]='article'></app-article>
+        <!-- </a> -->
+    </mat-list-item>
+</mat-list>

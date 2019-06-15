@@ -1,0 +1,22 @@
+<div class='article-container'>
+
+    <a [href]="data.url" target="_blank">
+        <div class='title-container'>
+            {{data.title}}
+            <div class='author-container'>
+                -{{data.author}}-
+            </div>
+        </div>
+    </a>
+
+    <div class='date-container'>
+        {{formatDay(data.created_at)}}
+    </div>
+
+    <div class="actions-container" id="deletebtn">
+        <button mat-icon-button color="warn" (click)="deleteArticle(data._id)">
+            <mat-icon>delete_forever</mat-icon>
+        </button>
+    </div>
+
+</div>
